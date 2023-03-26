@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.three-borders {
+  position: relative;
+  color: white;
+  border-radius: 12px;
+  z-index: 1;
+}
+.three-borders span {
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+.three-borders::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  z-index: -1;
+  padding: 8px;
+  clip-path: polygon(
+    4% 0%,
+    96.5% 0%,
+    100% 16%,
+    100% 85%,
+    94% 110%,
+    4% 100%,
+    0 86%,
+    0% 14%
+  );
+}
+.three-borders::after {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: -14px;
+  right: -14px;
+  bottom: -14px;
+  z-index: -2;
+  clip-path: polygon(
+    4% 0%,
+    95.5% 0%,
+    100% 16%,
+    100% 85%,
+    94% 110%,
+    4% 100%,
+    0 86%,
+    0% 14%
+  );
+  padding: 14px;
+}
+.purple::before {
+  border: 1px solid #FF76E1;
+  background-color: #5621a1;
+}
+.purple::after{
+  border: 1px solid #FF76E1;
+  background-color: #713abf;
+}
+.purple span {
+  background-color: #481592;
+}
+.yellow span{
+  background-color: #928515;
+}
+.yellow::before {
+  border: 1px solid #FFF176;
+  background-color: #A19C21;
+}
+.yellow::after{
+  border: 1px solid #FFF176;
+  background-color: #BFA23A;
+}
+.blue span{
+  background-color: #157492;
+}
+.blue::before {
+  border: 1px solid #76F7FF;
+  background-color: #2183A1;
+}
+.blue::after{
+  border: 1px solid #76F7FF;
+  background-color: #3AA7BF;
+}
