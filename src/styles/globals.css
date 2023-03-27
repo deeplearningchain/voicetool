@@ -53,7 +53,7 @@
   padding: 14px;
 }
 .purple::before {
-  border: 1px solid #FF76E1;
+  border: 1px solid #FF76E1; 
   background-color: #5621a1;
 }
 .purple::after{
@@ -62,6 +62,7 @@
 }
 .purple span {
   background-color: #481592;
+  /* opacity: 39%; */
 }
 .yellow span{
   background-color: #928515;
