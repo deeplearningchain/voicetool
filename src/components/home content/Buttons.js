@@ -4,7 +4,7 @@ import Image from "next/image";
 const Buttons = () => {
   return (
     <section>
-      <article className="flex flex-col gap-[4rem]">
+      <article className="flex flex-col gap-[4.5rem]">
         <button className="three-borders purple">
           <span className="flex items-center border-[1px] border-[#FF76E1] border-opacity-[0.73]">
             <Image

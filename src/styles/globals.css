@@ -35,10 +35,10 @@
 .three-borders::after {
   content: "";
   position: absolute;
-  top: -14px;
-  left: -14px;
-  right: -14px;
-  bottom: -14px;
+  top: -16px;
+  left: -16px;
+  right: -16px;
+  bottom: -16px;
   z-index: -2;
   clip-path: polygon(
     4% 0%,
@@ -50,39 +50,38 @@
     0 86%,
     0% 14%
   );
-  padding: 14px;
+  padding: 16px;
 }
 .purple::before {
-  border: 1px solid #FF76E1; 
-  background-color: rgb(86, 33, 161);
+  border: 1px solid rgba(255, 118, 225, 0.73); 
+  background-color: rgba(86, 33, 161, 0.39);
 }
 .purple::after{
-  border: 1px solid #FF76E1;
-  background-color: rgb(113, 58, 191);
+  border: 1px solid rgba(255, 118, 225, 0.73);
+  background-color: rgba(113, 58, 191, 0.3);
 }
-.purple span {
+.purple span:first-child{
   background-color: rgba(72, 21, 146, 0.39);
-  /* opacity: 39%; */
 }
-.yellow span{
-  background-color: rgb(146, 133, 21);
+.yellow span:first-child{
+  background-color: rgba(146, 133, 21, 0.39);
 }
 .yellow::before {
-  border: 1px solid #FFF176;
-  background-color: rgb(161, 156, 33);
+  border: 1px solid rgba(255, 241, 118, 0.73);
+  background-color: rgba(161, 156, 33, 0.39);
 }
 .yellow::after{
-  border: 1px solid #FFF176;
-  background-color: rgb(191, 162, 58);
+  border: 1px solid rgb(255, 241, 118, 0.73);
+  background-color: rgba(191, 162, 58, 0.30);
 }
-.blue span{
-  background-color: rgb(21, 116, 146);
+.blue span:first-child{
+  background-color: rgba(21, 116, 146, 0.39);
 }
 .blue::before {
-  border: 1px solid #76F7FF;
-  background-color: rgb(33, 131, 161);
+  border: 1px solid rgba(118, 247, 255, 0.73);
+  background-color: rgba(33, 131, 161,0.39);
 }
 .blue::after{
-  border: 1px solid #76F7FF;
-  background-color: rgb(58, 167, 191);
+  border: 1px solid rgba(118, 247, 255, 0.73);
+  background-color: rgba(58, 167, 191, 0.30);
 }
