@@ -4,7 +4,7 @@ import Rive, { Layout, Fit, Alignment } from "@rive-app/react-canvas";
 
 const Head = (props) => {
   return (
-    <section className="flex flex-col justify-center items-center w-[60rem] h-[40rem] relative">
+    <section className="flex flex-col justify-center items-center w-[70rem] h-[40rem] relative">
       <Rive
         src="https://public.rive.app/hosted/139027/47193/5wpyMWAKCkK6JvkNVqhvuQ.riv"
         stateMachines="State Machine 1"
