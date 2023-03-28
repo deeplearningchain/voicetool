@@ -54,35 +54,35 @@
 }
 .purple::before {
   border: 1px solid #FF76E1; 
-  background-color: #5621a1;
+  background-color: rgb(86, 33, 161);
 }
 .purple::after{
   border: 1px solid #FF76E1;
-  background-color: #713abf;
+  background-color: rgb(113, 58, 191);
 }
 .purple span {
-  background-color: #481592;
+  background-color: rgba(72, 21, 146, 0.39);
   /* opacity: 39%; */
 }
 .yellow span{
-  background-color: #928515;
+  background-color: rgb(146, 133, 21);
 }
 .yellow::before {
   border: 1px solid #FFF176;
-  background-color: #A19C21;
+  background-color: rgb(161, 156, 33);
 }
 .yellow::after{
   border: 1px solid #FFF176;
-  background-color: #BFA23A;
+  background-color: rgb(191, 162, 58);
 }
 .blue span{
-  background-color: #157492;
+  background-color: rgb(21, 116, 146);
 }
 .blue::before {
   border: 1px solid #76F7FF;
-  background-color: #2183A1;
+  background-color: rgb(33, 131, 161);
 }
 .blue::after{
   border: 1px solid #76F7FF;
-  background-color: #3AA7BF;
+  background-color: rgb(58, 167, 191);
 }

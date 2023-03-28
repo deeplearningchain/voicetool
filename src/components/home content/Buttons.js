@@ -39,7 +39,7 @@ const Buttons = () => {
           </span>
         </button>
         <button className="three-borders purple">
-          <span className="flex items-center border-[1px] border-[#b202d1] border-opacity-[0.73]">
+          <span className="flex items-center border-[1px] border-[#FF76E1] border-opacity-[0.73]">
             <Image
               src="/assets/deploy.png"
               alt="Deploy"
