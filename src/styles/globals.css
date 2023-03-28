@@ -54,10 +54,12 @@
 }
 .purple::before {
   border: 1px solid rgba(255, 118, 225, 0.73); 
+  /* border-color: rgba(255, 118, 225, 0.73); */
   background-color: rgba(86, 33, 161, 0.39);
 }
 .purple::after{
-  border: 1px solid rgba(255, 118, 225, 0.73);
+  border: 1px solid rgba(255, 118, 225, 0.73); 
+  /* border-color: rgba(255, 118, 225, 0.73); */
   background-color: rgba(113, 58, 191, 0.3);
 }
 .purple span:first-child{
