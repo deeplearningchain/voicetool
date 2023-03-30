@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <main className="bg-home h-screen bg-no-repeat bg-cover bg-center">
         <Navbar />
-        <HomeContent/>
+        <HomeContent />
       </main>
     </>
   );
