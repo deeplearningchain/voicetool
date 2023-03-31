@@ -6,7 +6,7 @@ const Buttons = () => {
     <section>
       <article className="flex flex-col gap-[4.5rem]">
         <button className="three-borders purple">
-          <span className="flex items-center border-[1px] border-[#FF76E1] border-opacity-[0.73]">
+          <span className="flex items-center border-[1px] border-[#FF76E1] border-opacity-[0.43]">
             <Image
               src="/assets/arrows.png"
               alt="Arrows"
@@ -17,7 +17,7 @@ const Buttons = () => {
           </span>
         </button>
         <button className="three-borders yellow">
-          <span className="flex items-center border-[1px] border-[#FFF176] border-opacity-[0.73]">
+          <span className="flex items-center border-[1px] border-[#FFF176] border-opacity-[0.43]">
             <Image
               src="/assets/explorer.png"
               alt="Globe"
@@ -28,7 +28,7 @@ const Buttons = () => {
           </span>
         </button>
         <button className="three-borders blue">
-          <span className="flex items-center border-[1px] border-[#76F7FF] border-opacity-[0.73]">
+          <span className="flex items-center border-[1px] border-[#76F7FF] border-opacity-[0.43]">
             <Image
               src="/assets/faucet.png"
               alt="Faucet"
@@ -39,7 +39,7 @@ const Buttons = () => {
           </span>
         </button>
         <button className="three-borders purple">
-          <span className="flex items-center border-[1px] border-[#FF76E1] border-opacity-[0.73]">
+          <span className="flex items-center border-[1px] border-[#FF76E1] border-opacity-[0.43]">
             <Image
               src="/assets/deploy.png"
               alt="Deploy"
