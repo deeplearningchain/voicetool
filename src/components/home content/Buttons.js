@@ -53,7 +53,7 @@ const ButtonData = ({
 };
 const Buttons = () => {
   return (
-    <section className="flex flex-col gap-[2.5rem]">
+    <section className="flex flex-col gap-[1.5rem]">
       {ButtonsData.map((item, index) => (
         <ButtonData
           key={index}
