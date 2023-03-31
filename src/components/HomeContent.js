@@ -9,7 +9,7 @@ const HomeContent = () => {
       <article>
         <ChatBot/>
       </article>
-      <article className='-mr-[6rem] flex justify-center items-center'>
+      <article className='-mr-[10rem] flex justify-center items-center'>
         <Head/>
       </article>
       <article>
