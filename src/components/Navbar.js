@@ -9,7 +9,7 @@ const Navbar = () => {
         <Image src="/assets/logo.svg" alt="Logo" width={80} height={80} />
       </article>
       <article>
-        <button className='uppercase bg-white px-6 py-3 rounded-full text-purple'>Connect Wallet</button>
+        <button className='uppercase bg-white px-5 py-2 rounded-full text-purple'>Connect Wallet</button>
       </article>
     </section>
   );
