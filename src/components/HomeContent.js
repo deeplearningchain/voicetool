@@ -5,7 +5,7 @@ import Head from './home content/Head';
 
 const HomeContent = () => {
   return (
-    <section className='px-14 flex justify-between items-center h-[91%]'>
+    <section className='px-14 flex justify-between items-center h-[90%]'>
       <article>
         <ChatBot/>
       </article>

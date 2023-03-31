@@ -4,6 +4,52 @@ import Image from "next/image";
 const Buttons = () => {
   return (
     <section>
+      {/* <article className="flex flex-col gap-[2.5rem]">
+        <button className="bg-p-btn text-white bg-no-repeat bg-cover bg-center w-[20rem] h-[7rem]">
+          <span className="flex gap-2 ml-12">
+            <Image
+              src="/assets/arrows.png"
+              alt="Arrows"
+              width={25}
+              height={25}
+            />
+            <span>Transfer funds</span>
+          </span>
+        </button>
+        <button className="bg-p-btn text-white bg-no-repeat bg-cover bg-center w-[20rem] h-[7rem]">
+          <span className="flex gap-2 ml-12">
+            <Image
+              src="/assets/arrows.png"
+              alt="Arrows"
+              width={25}
+              height={25}
+            />
+            <span>Transfer funds</span>
+          </span>
+        </button>
+        <button className="bg-p-btn text-white bg-no-repeat bg-cover bg-center w-[20rem] h-[7rem]">
+          <span className="flex gap-2 ml-12">
+            <Image
+              src="/assets/arrows.png"
+              alt="Arrows"
+              width={25}
+              height={25}
+            />
+            <span>Transfer funds</span>
+          </span>
+        </button>
+        <button className="bg-p-btn text-white bg-no-repeat bg-cover bg-center w-[20rem] h-[7rem]">
+          <span className="flex gap-2 ml-12">
+            <Image
+              src="/assets/arrows.png"
+              alt="Arrows"
+              width={25}
+              height={25}
+            />
+            <span>Transfer funds</span>
+          </span>
+        </button>
+      </article> */}
       <article className="flex flex-col gap-[4.5rem]">
         <button className="three-borders purple">
           <span className="flex items-center border-[1px] border-[#FF76E1] border-opacity-[0.43]">

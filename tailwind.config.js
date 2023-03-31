@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         home: "url('/assets/home-bg.jpg')",
+        "p-btn": "url('/assets/p-btn.png')",
       },
       colors: {
         purple: "#B202D1",
