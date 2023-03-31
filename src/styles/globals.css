@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.chat-interface{
+    background-image: url("../../public/assets/chat-bg.svg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    /* width: 20rem;
+    height: 20rem; */
+}

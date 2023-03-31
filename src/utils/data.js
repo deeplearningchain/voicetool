@@ -7,6 +7,7 @@ const ButtonsData = [
     text: "Transfer funds",
     alt: "Arrows",
     icon: "/assets/arrows.png",
+    link: "#",
   },
   {
     fillOne: "#928515",
@@ -16,6 +17,7 @@ const ButtonsData = [
     text: "Open Explorer",
     alt: "Globe",
     icon: "/assets/explorer.png",
+    link: "#",
   },
   {
     fillOne: "#157492",
@@ -25,6 +27,7 @@ const ButtonsData = [
     text: "Open Faucet",
     alt: "Faucet",
     icon: "/assets/faucet.png",
+    link: "#",
   },
   {
     fillOne: "#481592",
@@ -34,6 +37,7 @@ const ButtonsData = [
     text: "Deploy Contract",
     alt: "Contract",
     icon: "/assets/deploy.png",
+    link: "#"
   },
 ];
 
