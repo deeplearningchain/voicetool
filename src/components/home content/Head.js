@@ -4,15 +4,15 @@ import Rive, { Layout, Fit, Alignment } from "@rive-app/react-canvas";
 
 const Head = (props) => {
   return (
-    <section className="flex flex-col justify-center items-center w-[70rem] h-[40rem] relative">
+    <section className="flex flex-col justify-center items-center w-[35rem] h-[35rem] -ml-[8rem]">
       <Rive
-        src="https://public.rive.app/hosted/139027/47193/5wpyMWAKCkK6JvkNVqhvuQ.riv"
+        src="https://public.rive.app/hosted/139027/48502/AuI6f-jOz0W79pXLTvl1fw.riv"
         stateMachines="State Machine 1"
         layout={new Layout({ fit: Fit.Contain, alignment: Alignment.Center })}
         artboard="DLC Responsive Animation"
         autoplay={true && props.play}
       />
-      <button className="absolute bottom-[15%]">
+      <button className="absolute bottom-[16%]">
         <Image src="/assets/mic.png" alt="Microphone" width={50} height={50} />
       </button>
     </section>

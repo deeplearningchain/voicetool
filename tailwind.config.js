@@ -16,10 +16,6 @@ module.exports = {
       },
       colors: {
         purple: "#B202D1",
-        "border-purple": "#B202D1",
-        "dark-purple-30": "#481592",
-        "dark-purple-20": "#5621A1",
-        "dark-purple-10": "#713ABF",
       },
       fontFamily: {
         custom: ["AlienEncountersSolid", "sans-serif"],
