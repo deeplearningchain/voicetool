@@ -12,7 +12,7 @@ const Head = (props) => {
         artboard="DLC Responsive Animation"
         autoplay={true && props.play}
       />
-      <button className="absolute bottom-[16%]">
+      <button className="absolute lg:bottom-[16%] bottom-[-25%]">
         <Image src="/assets/mic.png" alt="Microphone" width={50} height={50} />
       </button>
     </section>

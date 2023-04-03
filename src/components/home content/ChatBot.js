@@ -8,7 +8,7 @@ const ChatBot = () => {
       <div className="chat-interface flex flex-col justify-between pl-[6%] pb-[8%]">
         {/* all the chat content goes here */}
         <article className="flex flex-col items-center gap-3 mt-8 overflow-y-scroll mb-[2rem]">
-          <div className="rounded-[4.73px] border-[0.7px] border-[rgba(255,118,225,0.3)] bg-[rgba(113,58,191,0.3)] focus:outline-none w-[70%] h-fit p-[10px]">
+          <div className="rounded-[4.73px] border-[0.7px] border-[rgba(255,118,225,0.3)] bg-[rgba(113,58,191,0.3)] focus:outline-none w-[80%] h-fit p-[10px]">
             Hi, I'm dlc, your voice tool!
           </div>
           {/* this is another message box */}

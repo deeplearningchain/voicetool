@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/logo.svg" />
       </Head>
-      <main className="bg-home h-screen bg-no-repeat bg-cover bg-center">
+      <main className="bg-home min-h-screen lg:h-screen bg-no-repeat bg-cover bg-center">
         <Navbar />
         <HomeContent />
       </main>
