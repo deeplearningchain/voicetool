@@ -3,9 +3,14 @@ import Image from "next/image";
 
 const ChatBot = () => {
   return (
-    <section className="text-white flex items-end gap-3 justify-center lg:justify-[unset]">
-      <Image src="/assets/dlc.svg" width={60} height={60} className="mb-10" />
-      <div className="chat-interface flex flex-col justify-between pl-[6%] pb-[8%]">
+    <section className="text-white flex items-end gap-3 justify-center lg:justify-[unset] mt-10 md:mt-0">
+      <Image
+        src="/assets/dlc.svg"
+        width={60}
+        height={60}
+        className="md:mb-10"
+      />
+      <div className="chat-interface flex flex-col justify-between pl-[6%] md:pl-[4%] pb-[8%] md:pb-[6%] lg:pb-[4%] lg:pl-[3%] xl:pl-[6%] xl:pb-[8%]">
         {/* all the chat content goes here */}
         <article className="flex flex-col items-center gap-3 mt-8 overflow-y-scroll mb-[2rem]">
           <div className="rounded-[4.73px] border-[0.7px] border-[rgba(255,118,225,0.3)] bg-[rgba(113,58,191,0.3)] focus:outline-none w-[80%] h-fit p-[10px]">
@@ -23,7 +28,7 @@ const ChatBot = () => {
 
         {/* input field starts here */}
         <article className="flex h-[29px] gap-2 justify-center">
-          <input className="rounded-[4.73px] border-[0.7px] border-[rgba(255,118,225,0.3)] bg-[rgba(72,21,146,0.3)] focus:outline-none p-1 w-[70%]" />
+          <input className="rounded-[4.73px] border-[0.7px] border-[rgba(255,118,225,0.3)] bg-[rgba(72,21,146,0.3)] focus:outline-none p-1 md:w-[70%] w-[60%]" />
           <button className="bg-[rgba(255,118,225,0.3)] rounded-[4.73px] p-2 flex items-center">
             <Image
               src="/assets/submit.svg"

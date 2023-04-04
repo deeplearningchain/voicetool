@@ -13,6 +13,31 @@
     height: 19rem;
 }
 
+@media screen and (max-width : 374px){
+    .chat-interface{
+        width: 18rem;
+        height: 12rem;
+    }
+}
+@media screen and (min-width : 375px) and (max-width : 420px){
+    .chat-interface{
+        width: 19rem;
+        height: 15.5rem;
+    }
+    .mic{
+        bottom: -35%;
+    }
+}
+
+@media screen and (min-width : 420px) and (max-width : 480px){
+    .chat-interface{
+        width: 19.9rem;
+        height: 18rem;
+    }
+    .mic{
+        bottom: -45%;
+    }
+}
 /*Styling for scrollbars */
 ::-webkit-scrollbar {
     width: 5px;
