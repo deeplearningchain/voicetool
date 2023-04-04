@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ChatBot = () => {
   return (
-    <section className="text-white flex items-end gap-3">
+    <section className="text-white flex items-end gap-3 justify-center lg:justify-[unset]">
       <Image src="/assets/dlc.svg" width={60} height={60} className="mb-10" />
       <div className="chat-interface flex flex-col justify-between pl-[6%] pb-[8%]">
         {/* all the chat content goes here */}
