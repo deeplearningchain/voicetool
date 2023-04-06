@@ -36,7 +36,7 @@ const ChatBot = () => {
           {messages.map((message, index) => (
             <div
               key={index}
-              className="rounded-[4.73px] border-[0.7px] border-[rgba(255,118,225,0.3)] bg-[rgba(113,58,191,0.3)] focus:outline-none w-[70%] h-fit p-[10px]"
+              className="rounded-[4.73px] border-[0.7px] border-[rgba(255,118,225,0.3)] bg-[rgba(113,58,191,0.3)] focus:outline-none w-[80%] h-fit p-[10px]"
             >
               {message}
             </div>
